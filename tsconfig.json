@@ -5,11 +5,12 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
-    "typeRoots": ["node_modules/@types"]
+    "typeRoots": ["node_modules/@types"],
+    "resolveJsonModule": true
   },
   "include": [
     "src/**/**.ts",
-    "test/**/**.ts"
+    "src/configurations/**.json"
   ],
   "exclude": [
     "node_modules"
